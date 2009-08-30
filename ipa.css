@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 90%;
+    margin: 10px;
+}
+
+table {
+    border: none;
+    text-align: center;
+    display: inline;
+    display: inline-table;
+    empty-cells: hide;
+    caption-side: top;
+}
+table.diacritics {
+    max-width: 30em;
+    min-width: 10em;
+}
+caption {
+    font-size: 75%;
+    text-align: left;
+    margin-left: 2px;
+}
+th {
+    display: none;
+}
+td {
+    border: 1px solid #ccc;
+}
+td,
+#txtIpa {
+    font-family: Arial Unicode MS, Lucida Sans Unicode, Lucida Grande, TITUS Cyberbit Basic, Code2000, MV Boli, MS Mincho, DejaVu Sans, Arial, sans-serif;
+}
+table.diacritics td,
+td.combine {
+    font-size: 170%;
+}
+table.diacritics td {
+    float: left;
+    margin: 0 2px 2px 0;
+}
+td a {
+    padding: 0.05em 0.2em;
+    display: block;
+    color: #006 !important;
+    text-decoration: none;
+}
+td.impossible {
+    background-color: #ccc;
+}
+
+#copyIpa {
+    margin-top: 2em;
+    clear: both;
+}
+#txtIpa {
+    width: 95%;
+    margin-bottom: 0.5em;
+}
