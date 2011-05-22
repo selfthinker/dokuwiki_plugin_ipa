@@ -1,0 +1,7 @@
+base    ipa
+author  Anika Henke
+email   anika@selfthinker.org
+date    2011-05-22
+name    IPA Plugin
+desc    Pseudo-Plugin for adding an IPA Typewriter to the Toolbar.
+url     http://www.dokuwiki.org/plugin:ipa
