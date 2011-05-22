@@ -9,9 +9,11 @@
     padding: 0;
 }
 body {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 90%;
     margin: 10px;
+    background-color: #fff;
+    color: #333;
 }
 
 table {
@@ -34,6 +36,13 @@ caption {
 th {
     display: none;
 }
+/*
+th {
+    font-size: .75em;
+    color: #ccc;
+    font-weight: normal;
+}
+*/
 td {
     border: 1px solid #ccc;
 }
@@ -54,6 +63,12 @@ td a {
     display: block;
     color: #006 !important;
     text-decoration: none;
+}
+td a:link, td a:visited {
+    background-color: inherit;
+}
+td a:hover, td a:active, td a:focus {
+    background-color: #cfc;
 }
 td.impossible {
     background-color: #ccc;
